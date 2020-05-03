@@ -6,7 +6,7 @@ postgres_url = "postgresql://postgres:docker@localhost:5432/sbd"
 
 def create_table_in_sbd_database(csv_name, table_name):
     # ref https://stackoverflow.com/questions/2987433/how-to-import-csv-file-data-into-a-postgresql-table
-    df = pd.read_csv(csv_name)
+    df = pd.read_csv(csv_name, sep=";")
     df.columns = [c.lower for c in df.columns]
     engine = create_engine(postgres_url)
     df.to_sql(table_name, engine, if_exists="replace")
