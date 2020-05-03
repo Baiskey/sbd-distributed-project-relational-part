@@ -1,7 +1,9 @@
 import pandas as pd
+import psycopg2
 from sqlalchemy import create_engine
 
-postgres_url = "postgresql://postgres:docker@localhost:5432/sbd"
+database_name = "sbd"
+postgres_url = "postgresql://postgres:docker@localhost:5432/" + database_name
 
 
 def create_table_in_sbd_database(csv_name, table_name):
@@ -12,7 +14,18 @@ def create_table_in_sbd_database(csv_name, table_name):
     df.to_sql(table_name, engine, if_exists="replace")
 
 
+def create_database():
+    # ref https://stackoverflow.com/questions/34484066/create-a-postgres-database-using-python
+    con = psycopg2.connect(dbname='postgres',
+                           user="postgres", host='localhost',
+                           password="docker")
+    con.autocommit = True
+    cur = con.cursor()
+    cur.execute("CREATE DATABASE " + database_name)
+    con.close()
+
 if __name__ == '__main__':
+    create_database()
     create_table_in_sbd_database(csv_name="data/zameldowanie.csv", table_name="check_in")
     create_table_in_sbd_database(csv_name="data/adresy.csv", table_name="address")
     create_table_in_sbd_database(csv_name="data/rodzice.csv", table_name="parent")
