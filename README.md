@@ -12,3 +12,6 @@ Start Docker with MongoDB
 
 Deletion of all stopped containers
 `docker rm $(docker ps -a -q)`
+
+Stopping Docker container with MongoDB
+`docker stop mongodb`
