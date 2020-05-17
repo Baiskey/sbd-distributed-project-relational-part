@@ -9,3 +9,6 @@ Start Docker container with Postgres
 Start Docker with MongoDB
 `docker pull mongo`
 `docker run --rm -d -p 27017-27019:27017-27019 --name mongodb mongo`
+
+Deletion of all stopped containers
+`docker rm $(docker ps -a -q)`
