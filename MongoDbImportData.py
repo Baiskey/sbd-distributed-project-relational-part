@@ -1,6 +1,5 @@
 import csv
 import json
-import pprint
 
 import pandas as pd
 from pymongo import MongoClient
@@ -9,6 +8,7 @@ RELATIONSHIP_CSV_PATH = "data/zwiazki.csv"
 PERSON_CSV_PATH = "data/osoby.csv"
 ADDRESS_CSV_PATH = "data/adresy.csv"
 CHECK_IN_CSV_PATH = "data/zameldowanie.csv"
+CHILDREN_CSV_PATH = "data/rodzice.csv"
 
 HEADER_ROW = 0
 MONGO_URL = "localhost:27017"
@@ -36,7 +36,7 @@ def create_database_with_data():
     create_collection_from_csv(ADDRESS_COLLECTION_NAME, ADDRESS_CSV_PATH, created_database)
 
 
-def insert_persons_with_relationship_data_and_children_data(relationship_csv_path, person_csv_path):
+def insert_persons_with_relationship_data_and_children_data(relationship_csv_path, person_csv_path, children_csv_path):
     person_csv = pd.read_csv(person_csv_path, sep=";")
     persons_json = json.loads(person_csv.to_json(orient='records'))
     client = MongoClient(MONGO_URL)
@@ -52,12 +52,25 @@ def insert_persons_with_relationship_data_and_children_data(relationship_csv_pat
             for person in persons_json:
                 if person['pesel'] == first_spouse:
                     person['marriage_data'] = {'spouse': second_spouse}
-                    pprint.pprint(person)
                     break
                 if person['pesel'] == second_spouse:
                     person['marriage_data'] = {'spouse': first_spouse}
-                    pprint.pprint(person)
                     break
+
+    with open(children_csv_path, "r") as f:
+        reader = csv.reader(f, delimiter=";")
+        for i, line in enumerate(reader):
+            if i == HEADER_ROW:
+                continue
+            child_id = int(line[0])
+            parent_id = int(line[1])
+            for person in persons_json:
+                if person['pesel'] == parent_id:
+                    try:
+                        person['children'].append(child_id)
+                    except KeyError as e:
+                        person.update({'children': [child_id]})
+                        break
 
     create_collection_from_json(PERSON_COLLECTION_NAME, persons_json, database)
 
@@ -79,12 +92,10 @@ def insert_address_with_check_in_data(address_csv_path, check_in_csv_path):
                     resident_pesel = line[1]
                     resident_moved_date = line[2]
                     address['check_in_data'] = {'pesel': resident_pesel, 'moved_date': resident_moved_date}
-                    pprint.pprint(address)
                     break
     create_collection_from_json(ADDRESS_COLLECTION_NAME, address_json, database)
 
 
 if __name__ == '__main__':
-    # create_database_with_data()
-    insert_persons_with_relationship_data_and_children_data(RELATIONSHIP_CSV_PATH, PERSON_CSV_PATH)
+    insert_persons_with_relationship_data_and_children_data(RELATIONSHIP_CSV_PATH, PERSON_CSV_PATH, CHILDREN_CSV_PATH)
     insert_address_with_check_in_data(ADDRESS_CSV_PATH, CHECK_IN_CSV_PATH)
