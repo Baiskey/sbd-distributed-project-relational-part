@@ -91,7 +91,8 @@ def insert_address_with_check_in_data(address_csv_path, check_in_csv_path):
                 if address['id'] == address_id:
                     resident_pesel = line[1]
                     resident_moved_date = line[2]
-                    address['check_in_data'] = {'pesel': resident_pesel, 'moved_date': resident_moved_date}
+                    address['resident_pesel'] = resident_pesel
+                    address['moved_date']: resident_moved_date
                     break
     create_collection_from_json(ADDRESS_COLLECTION_NAME, address_json, database)
 
