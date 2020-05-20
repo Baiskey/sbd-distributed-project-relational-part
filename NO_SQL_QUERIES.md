@@ -22,11 +22,11 @@ business queries
 `db.person.aggregate(
 [{
     $lookup: {
-        from: 'address',
-        localField: 'pesel',
-        foreignField: 'resident_pesel',
-        as: 'property'
-    }
+      from: 'address',
+      localField: 'residence_id',
+      foreignField: 'id',
+      as: 'property'
+}
 }, {
     $unwind: {
         path: "$property",
@@ -37,12 +37,12 @@ business queries
         pesel: 1,
         name: 1,
         surname: 1,
-        moved_date: "$property.moved_date",
+        moved_date: "$residence_moved_date",
         dayssince: {
             $divide: [{
                 $subtract: [new Date(), {
                     $dateFromString: {
-                        dateString: "$property.moved_date"
+                        dateString: "$residence_moved_date"
                     }
                 }]
             }, 1000 * 60 * 60 * 24]
@@ -52,3 +52,4 @@ business queries
 )`
 
 3. Return list of PESELs of spouses and calculate how much time has passed between their marrage and moving in to flat
+
