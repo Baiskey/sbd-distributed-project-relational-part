@@ -53,3 +53,31 @@ business queries
 
 3. Return list of PESELs of spouses and calculate how much time has passed between their marrage and moving in to flat
 
+`
+[{
+    $match: {
+        spouse: {
+            $exists: true
+        }
+    }
+}, {
+    $project: {
+        pesel: 1,
+        name: 1,
+        surname: 1,
+        dayssince: {
+            $divide: [{
+                $subtract: [{
+                    $dateFromString: {
+                        dateString: "$marriage_date"
+                    }
+                }, {
+                    $dateFromString: {
+                        dateString: "$residence_moved_date"
+                    }
+                }]
+            }, 1000 * 60 * 60 * 24]
+        }
+    }
+}]
+`
