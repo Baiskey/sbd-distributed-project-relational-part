@@ -35,8 +35,8 @@ After some time do following..
 
 `sh.enableSharding("test_database")`
 
-`sh.shardCollecton("test_database.person", {"pesel": 1} )`
-`sh.shardCollecton("test_database.address", {"id": 1} )`
+`sh.shardCollection("test_database.person", {"pesel": 1} )`
+`sh.shardCollection("test_database.address", {"id": 1} )`
 
 `sh.disableBalancing("test_database.address")`
 
