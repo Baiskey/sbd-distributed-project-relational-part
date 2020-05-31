@@ -1,9 +1,0 @@
-#Login and password to mongodb free cluster at mongodb.com
-
-https://account.mongodb.com
-l: spam@morshed.pl
-h: sbdpassword123
-
-
-#docker-compose.yaml have problem with login. All data looks correct but i can't connect. 
-#docker compose run without anny errors 
