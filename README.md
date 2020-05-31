@@ -15,3 +15,22 @@ Deletion of all stopped containers
 
 Stopping Docker container with MongoDB
 `docker stop mongodb`
+
+
+### Sharding MongoDB ###
+
+`docker exec -it {CONTAINER_ID} /bin/bash`, where {CONTAINER_ID} is ID of Mongo Router
+
+
+`mongo`
+
+`use test_database`
+
+`sh.enableSharding("test_database")`
+
+`sh.shardCollecton("test_database.person", {"pesel": 1} )`
+`sh.shardCollecton("test_database.address", {"id": 1} )`
+
+Then run script MongoDBImportData.py
+
+`db.person.getShardDistribution()`
