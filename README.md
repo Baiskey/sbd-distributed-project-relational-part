@@ -21,6 +21,14 @@ Stopping all containers
 
 ### Sharding MongoDB ###
 
+`cd mongodb-cluster-scripts`
+
+`docker-compose up`
+
+Open new terminal and then.. `cd mongodb-cluster-scripts`, `sh init.sh`
+
+After some time do following..
+
 `docker-compose exec router mongo`
 
 `use test_database`
@@ -41,7 +49,9 @@ Stopping all containers
 `sh.enableBalancing("test_database.person")`
 `sh.enableBalancing("test_database.address")`
 
-Then run script MongoDBImportData.py
+Then run script MongoDBImportData.py (it inserts data)
+
+Then check if Address data is distributed to 3 MongoDB instances
 
 `db.person.getShardDistribution()`
 `db.address.getShardDistribution()`
