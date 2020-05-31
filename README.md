@@ -23,23 +23,25 @@ Stopping all containers
 
 `docker-compose exec router mongo`
 
-`use admin`
+`use test_database`
 
 `sh.enableSharding("test_database")`
 
 `sh.shardCollecton("test_database.person", {"pesel": 1} )`
 `sh.shardCollecton("test_database.address", {"id": 1} )`
 
-`db.runCommand({"updateZoneKeyRange": "test_database.address", min: {"id": 1}, max: {"id": 200}, zone: "alpha" })`
+`sh.disableBalancing("test_database.address")`
+
+`sh.addShardTag("shard01", "ALPHA")`
+`sh.addShardTag("shard02", "BETA")`
+
+`sh.addTagRange("test_database.address", {"id": 1}, {"id": 470}, "ALFA")`
+`sh.addTagRange("test_database.address", {"id": 471}, {"id": 943}, "BETA")`
 
 `sh.enableBalancing("test_database.person")`
 `sh.enableBalancing("test_database.address")`
-`sh.startBalancer()`
 
 Then run script MongoDBImportData.py
 
 `db.person.getShardDistribution()`
 `db.address.getShardDistribution()`
-
-
-
