@@ -15,3 +15,31 @@ Deletion of all stopped containers
 
 Stopping Docker container with MongoDB
 `docker stop mongodb`
+
+Stopping all containers
+`docker rm $(docker ps -a -q)`
+
+### Sharding MongoDB ###
+
+`docker-compose exec router mongo`
+
+`use admin`
+
+`sh.enableSharding("test_database")`
+
+`sh.shardCollecton("test_database.person", {"pesel": 1} )`
+`sh.shardCollecton("test_database.address", {"id": 1} )`
+
+`db.runCommand({"updateZoneKeyRange": "test_database.address", min: {"id": 1}, max: {"id": 200}, zone: "alpha" })`
+
+`sh.enableBalancing("test_database.person")`
+`sh.enableBalancing("test_database.address")`
+`sh.startBalancer()`
+
+Then run script MongoDBImportData.py
+
+`db.person.getShardDistribution()`
+`db.address.getShardDistribution()`
+
+
+
