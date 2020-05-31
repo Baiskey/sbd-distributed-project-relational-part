@@ -11,9 +11,10 @@ CHECK_IN_CSV_PATH = "data/zameldowanie.csv"
 CHILDREN_CSV_PATH = "data/rodzice.csv"
 
 HEADER_ROW = 0
-MONGO_LOGIN = "python"
-MONGO_PASSWORD = "python"
-MONGO_URL = "mongodb+srv://"+MONGO_LOGIN+":"+MONGO_PASSWORD +"@sbdproject-piyfv.mongodb.net/test?retryWrites=true&w=majority"
+#MONGO_LOGIN = "python"
+#MONGO_PASSWORD = "python"
+#MONGO_URL = "mongodb+srv://"+MONGO_LOGIN+":"+MONGO_PASSWORD +"@sbdproject-piyfv.mongodb.net/test?retryWrites=true&w=majority"
+MONGO_URL = "192.168.2.58:27017"
 DATABASE_NAME = "sbd_database"
 PERSON_COLLECTION_NAME = "person"
 ADDRESS_COLLECTION_NAME = "address"

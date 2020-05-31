@@ -1,0 +1,944 @@
+id;city;house_number;flat_number;street
+1;Marki;14;3;Łąkowa
+2;Warszawa;14;7;Polna
+3;Bełchatów;11;1;Kosciuszki
+4;Poznań;19;3;Ogrodowa
+5;Ruda Śląska;13;9;Szkolna
+6;Bielsko-Biała;3;8;Słoneczna
+7;Szczecin;1;9;Mickiewicza
+8;Gdynia;12;5;Polna
+9;Słupsk;9;5;Ogrodowa
+10;Rybnik;2;7;Leśna
+11;Wrocław;18;1;Łąkowa
+12;Bielsk Podlaski;10;9;Kosciuszki
+13;Mława;19;8;Polna
+14;Świebodzice;1;1;Kosciuszki
+15;Elbląg;2;2;Mickiewicza
+16;Warszawa;15;7;Szkolna
+17;Zabrze;6;4;Jana Pawła II
+18;Warszawa;17;2;Łąkowa
+19;Kraków;15;5;Jana Pawła II
+20;Bielsk Podlaski;18;3;Lipowa
+21;Grudziądz;1;3;Ogrodowa
+22;Bytom;6;6;Leśna
+23;Puławy;18;5;Kwiatowa
+24;Bielsko-Biała;6;8;Łąkowa
+25;Warszawa;3;6;Szkolna
+26;Elbląg;17;1;Kosciuszki
+27;Kraków;7;9;Słoneczna
+28;Poznań;2;3;Sienkiewicza
+29;Białystok;14;7;Łąkowa
+30;Sieradz;14;5;Krótka
+31;Tczew;7;2;Brzozowa
+32;Poznań;3;7;Słoneczna
+33;Kamienna Góra;18;6;Krótka
+34;Zabrze;10;4;Ogrodowa
+35;Łódź;4;3;Ogrodowa
+36;Łódź;19;9;Leśna
+37;Koszalin;13;6;Leśna
+38;Kraków;7;5;Lipowa
+39;Zielona Góra;8;1;Łąkowa
+40;Warszawa;3;7;Słoneczna
+41;Szczecin;16;6;Kosciuszki
+42;Bielsko-Biała;11;7;Słoneczna
+43;Gliwice;17;1;Łąkowa
+44;Giżycko;8;8;Szkolna
+45;Warszawa;8;6;Brzozowa
+46;Szczecin;11;1;Słoneczna
+47;Leszno;18;6;Słoneczna
+48;Zabrze;10;3;Mickiewicza
+49;Sosnowiec;15;7;Słoneczna
+50;Augustów;6;5;Kwiatowa
+51;Gliwice;3;7;Polna
+52;Radom;2;3;Łąkowa
+53;Elbląg;3;9;Krótka
+54;Inowrocław;19;3;Szkolna
+55;Kraków;7;9;Leśna
+56;Dęblin;12;3;Sienkiewicza
+57;Ostrów Wielkopolski;14;4;Leśna
+58;Poznań;1;8;Ogrodowa
+59;Poznań;9;4;Leśna
+60;Warszawa;9;4;Łąkowa
+61;Szydłowiec;16;8;Słoneczna
+62;Łódź;8;9;Łąkowa
+63;Warszawa;1;1;Szkolna
+64;Głogów;16;1;Szkolna
+65;Rzeszów;11;7;Kwiatowa
+66;Zielona Góra;14;8;Szkolna
+67;Sulejówek;3;3;Szkolna
+68;Szczecin;5;4;Słoneczna
+69;Sulejówek;2;6;Leśna
+70;Przemyśl;4;8;Lipowa
+71;Ruda Śląska;11;5;Słoneczna
+72;Konin;3;3;Polna
+73;Wrocław;1;5;Szkolna
+74;Kołobrzeg;13;7;Sienkiewicza
+75;Kraków;10;5;Ogrodowa
+76;Lublin;11;6;Łąkowa
+77;Warszawa;13;7;Słoneczna
+78;Lublin;6;9;Leśna
+79;Chorzów;9;8;Leśna
+80;Chorzów;7;9;Ogrodowa
+81;Bydgoszcz;4;5;Mickiewicza
+82;Słupsk;6;8;Słoneczna
+83;Słupsk;14;3;Kwiatowa
+84;Elbląg;16;6;Polna
+85;Drawsko Pomorskie;3;5;Sienkiewicza
+86;Drawsko Pomorskie;18;4;Sienkiewicza
+87;Poznań;4;5;Kwiatowa
+88;Augustów;18;3;Polna
+89;Tychy;15;8;Łąkowa
+90;Ostrowiec Świętokrzyski;6;1;Krótka
+91;Żory;6;2;Leśna
+92;Ostrów Wielkopolski;19;2;Krótka
+93;Łódź;7;9;Krótka
+94;Skarżysko-Kamienna;7;5;Ogrodowa
+95;Kłobuck;15;2;Krótka
+96;Łomża;18;8;Lipowa
+97;Gdańsk;5;1;Ogrodowa
+98;Gorzów Wielkopolski;16;2;Polna
+99;Piła;15;4;Szkolna
+100;Tarnowskie Góry;13;9;Polna
+101;Gdańsk;11;1;Brzozowa
+102;Zduńska Wola;7;5;Leśna
+103;Białystok;17;2;Polna
+104;Swarzędz;6;2;Kwiatowa
+105;Lublin;7;6;Brzozowa
+106;Płock;13;1;Słoneczna
+107;Sosnowiec;4;5;Łąkowa
+108;Mysłowice;11;6;Jana Pawła II
+109;Jelenia Góra;6;3;Brzozowa
+110;Dąbrowa Górnicza;5;4;Polna
+111;Biskupiec;11;2;Krótka
+112;Rybnik;12;4;Brzozowa
+113;Mysłowice;3;1;Mickiewicza
+114;Białystok;7;9;Ogrodowa
+115;Olsztyn;16;8;Szkolna
+116;Bydgoszcz;8;3;Mickiewicza
+117;Kraków;4;7;Polna
+118;Sochaczew;19;9;Łąkowa
+119;Dąbrowa Górnicza;1;6;Mickiewicza
+120;Wołomin;1;8;Słoneczna
+121;Łęczyca;17;6;Brzozowa
+122;Brzeziny;6;9;Kosciuszki
+123;Wrocław;18;3;Kwiatowa
+124;Mysłowice;14;5;Łąkowa
+125;Toruń;3;9;Kwiatowa
+126;Rzeszów;19;4;Lipowa
+127;Bydgoszcz;7;9;Polna
+128;Kamienna Góra;14;6;Szkolna
+129;Bytom;17;5;Szkolna
+130;Zabrze;17;4;Słoneczna
+131;Złotoryja;4;7;Leśna
+132;Gdynia;13;2;Ogrodowa
+133;Krosno;11;6;Łąkowa
+134;Aleksandrów Kujawski;4;3;Sienkiewicza
+135;Rzeszów;7;7;Sienkiewicza
+136;Białystok;18;5;Brzozowa
+137;Opole;2;4;Leśna
+138;Białystok;8;3;Leśna
+139;Gliwice;8;7;Krótka
+140;Świdnik;17;6;Szkolna
+141;Działdowo;13;7;Leśna
+142;Wrocław;8;2;Krótka
+143;Tarnów;16;9;Kosciuszki
+144;Kielce;8;2;Szkolna
+145;Gorzów Wielkopolski;18;2;Szkolna
+146;Zamość;5;5;Słoneczna
+147;Chorzów;19;7;Leśna
+148;Człuchów;2;5;Szkolna
+149;Tychy;12;9;Kosciuszki
+150;Tarnów;7;9;Szkolna
+151;Nowy Dwór Mazowiecki;16;5;Brzozowa
+152;Warszawa;5;1;Słoneczna
+153;Kraków;13;5;Polna
+154;Gniezno;17;7;Brzozowa
+155;Tuchola;12;5;Łąkowa
+156;Mława;17;1;Szkolna
+157;Mława;5;9;Kwiatowa
+158;Wieliczka;19;8;Szkolna
+159;Cieszyn;19;1;Słoneczna
+160;Jelenia Góra;3;1;Ogrodowa
+161;Sławno;10;5;Szkolna
+162;Poznań;11;2;Ogrodowa
+163;Poznań;11;8;Łąkowa
+164;Częstochowa;11;5;Słoneczna
+165;Rzeszów;3;6;Słoneczna
+166;Pionki;10;3;Szkolna
+167;Iława;16;1;Słoneczna
+168;Kraków;15;1;Kosciuszki
+169;Gliwice;10;6;Brzozowa
+170;Staszów;14;1;Lipowa
+171;Szczecin;9;3;Szkolna
+172;Szczecin;4;4;Łąkowa
+173;Bełchatów;2;4;Kosciuszki
+174;Sosnowiec;17;4;Łąkowa
+175;Pleszew;16;6;Słoneczna
+176;Ząbki;7;7;Jana Pawła II
+177;Kłodzko;8;7;Słoneczna
+178;Tomaszów Mazowiecki;1;9;Słoneczna
+179;Warszawa;15;2;Szkolna
+180;Warszawa;13;6;Krótka
+181;Cieszyn;3;8;Szkolna
+182;Rzeszów;16;8;Ogrodowa
+183;Sulechów;6;2;Brzozowa
+184;Piotrków Trybunalski;9;3;Łąkowa
+185;Wrocław;8;9;Polna
+186;Lębork;14;3;Ogrodowa
+187;Bielawa;5;4;Krótka
+188;Krosno;6;9;Polna
+189;Krosno;15;3;Kwiatowa
+190;Bieruń;19;1;Słoneczna
+191;Katowice;10;6;Krótka
+192;Grodzisk Mazowiecki;17;6;Słoneczna
+193;Katowice;6;5;Szkolna
+194;Ruda Śląska;2;7;Leśna
+195;Tarnów;12;7;Szkolna
+196;Radomsko;7;9;Szkolna
+197;Marki;12;1;Lipowa
+198;Warszawa;12;3;Ogrodowa
+199;Bełchatów;9;4;Lipowa
+200;Poznań;4;4;Leśna
+201;Ruda Śląska;15;9;Sienkiewicza
+202;Bielsko-Biała;6;8;Krótka
+203;Szczecin;19;1;Ogrodowa
+204;Gdynia;4;7;Kwiatowa
+205;Słupsk;5;2;Polna
+206;Nowa Ruda;15;4;Polna
+207;Wrocław;3;2;Leśna
+208;Bielsk Podlaski;16;3;Jana Pawła II
+209;Mława;2;6;Łąkowa
+210;Świebodzice;18;9;Polna
+211;Elbląg;13;2;Brzozowa
+212;Warszawa;18;5;Brzozowa
+213;Zabrze;3;3;Kwiatowa
+214;Warszawa;9;5;Szkolna
+215;Kraków;8;6;Lipowa
+216;Bielsk Podlaski;3;7;Leśna
+217;Grudziądz;5;6;Lipowa
+218;Bytom;7;3;Szkolna
+219;Puławy;6;6;Ogrodowa
+220;Bielsko-Biała;18;6;Polna
+221;Warszawa;17;8;Leśna
+222;Elbląg;15;4;Polna
+223;Kraków;17;2;Szkolna
+224;Bydgoszcz;2;6;Polna
+225;Białystok;15;8;Leśna
+226;Sieradz;11;4;Ogrodowa
+227;Tczew;9;7;Ogrodowa
+228;Poznań;15;5;Mickiewicza
+229;Toruń;19;3;Leśna
+230;Rzeszów;18;1;Kwiatowa
+231;Łódź;14;1;Ogrodowa
+232;Łódź;14;8;Leśna
+233;Koszalin;8;6;Kwiatowa
+234;Kraków;19;1;Słoneczna
+235;Zielona Góra;14;6;Krótka
+236;Warszawa;2;8;Leśna
+237;Szczecin;12;4;Polna
+238;Bielsko-Biała;8;7;Sienkiewicza
+239;Gliwice;7;8;Kwiatowa
+240;Giżycko;7;7;Brzozowa
+241;Warszawa;19;8;Polna
+242;Wrocław;11;5;Krótka
+243;Rzeszów;3;1;Jana Pawła II
+244;Kutno;9;1;Leśna
+245;Sosnowiec;9;5;Leśna
+246;Bielawa;4;9;Kosciuszki
+247;Augustów;13;2;Brzozowa
+248;Kraków;18;5;Szkolna
+249;Lubań;13;1;Mickiewicza
+250;Inowrocław;10;6;Ogrodowa
+251;Lubań;6;8;Kwiatowa
+252;Mysłowice;13;4;Lipowa
+253;Dęblin;6;4;Leśna
+254;Opole;16;2;Słoneczna
+255;Poznań;11;6;Słoneczna
+256;Warszawa;14;8;Brzozowa
+257;Warszawa;6;1;Ogrodowa
+258;Kozienice;8;6;Jana Pawła II
+259;Szydłowiec;16;2;Sienkiewicza
+260;Łódź;15;9;Łąkowa
+261;Łódź;10;2;Leśna
+262;Głogów;2;4;Szkolna
+263;Puławy;17;7;Brzozowa
+264;Sulechów;15;7;Polna
+265;Piła;10;1;Ogrodowa
+266;Sulejówek;13;2;Polna
+267;Sulejówek;15;1;Ogrodowa
+268;Gdynia;3;1;Jana Pawła II
+269;Przemyśl;10;9;Leśna
+270;Ruda Śląska;2;7;Kosciuszki
+271;Katowice;7;1;Brzozowa
+272;Ząbkowice Śląskie;7;8;Łąkowa
+273;Trzcianka;12;9;Lipowa
+274;Lublin;7;7;Lipowa
+275;Lublin;13;1;Słoneczna
+276;Chorzów;17;5;Polna
+277;Warszawa;14;8;Polna
+278;Słupsk;11;8;Słoneczna
+279;Słupsk;4;6;Kwiatowa
+280;Elbląg;5;4;Brzozowa
+281;Elbląg;7;1;Kwiatowa
+282;Drawsko Pomorskie;11;5;Lipowa
+283;Drawsko Pomorskie;2;6;Ogrodowa
+284;Łódź;6;9;Ogrodowa
+285;Suwałki;15;9;Polna
+286;Łomża;16;3;Lipowa
+287;Augustów;6;6;Polna
+288;Tychy;3;7;Leśna
+289;Tychy;2;3;Łąkowa
+290;Ostrowiec Świętokrzyski;18;3;Leśna
+291;Ełk;15;8;Leśna
+292;Ostrów Wielkopolski;10;5;Jana Pawła II
+293;Ostrów Wielkopolski;1;4;Łąkowa
+294;Łódź;13;3;Leśna
+295;Łódź;2;1;Polna
+296;Skarżysko-Kamienna;4;3;Leśna
+297;Skarżysko-Kamienna;2;3;Lipowa
+298;Zgorzelec;6;7;Polna
+299;Kłobuck;17;4;Brzozowa
+300;Łomża;13;2;Jana Pawła II
+301;Warszawa;8;3;Kosciuszki
+302;Pruszcz Gdański;13;6;Krótka
+303;Pruszcz Gdański;19;3;Łąkowa
+304;Gorzów Wielkopolski;16;3;Kwiatowa
+305;Jastrzębie-Zdrój;17;8;Słoneczna
+306;Piła;3;7;Krótka
+307;Piła;16;4;Polna
+308;Gdańsk;8;8;Polna
+309;Bielsko-Biała;16;8;Słoneczna
+310;Zamość;6;6;Szkolna
+311;Zamość;4;5;Brzozowa
+312;Białystok;6;3;Sienkiewicza
+313;Sulęcin;12;8;Leśna
+314;Lubin;7;7;Krótka
+315;Skawina;14;8;Kwiatowa
+316;Płock;17;6;Lipowa
+317;Płock;11;5;Mickiewicza
+318;Mysłowice;3;2;Kosciuszki
+319;Mysłowice;6;8;Łąkowa
+320;Tarnowskie Góry;19;4;Leśna
+321;Tarnowskie Góry;5;5;Polna
+322;Dąbrowa Górnicza;14;1;Ogrodowa
+323;Dąbrowa Górnicza;8;6;Leśna
+324;Biskupiec;12;4;Lipowa
+325;Biskupiec;2;3;Szkolna
+326;Białystok;9;5;Polna
+327;Białystok;6;6;Słoneczna
+328;Olsztyn;19;6;Lipowa
+329;Olsztyn;16;4;Ogrodowa
+330;Kraków;5;3;Polna
+331;Kraków;6;5;Leśna
+332;Dąbrowa Górnicza;10;4;Szkolna
+333;Dąbrowa Górnicza;8;8;Łąkowa
+334;Wołomin;3;1;Leśna
+335;Wołomin;3;5;Słoneczna
+336;Brzeziny;5;1;Słoneczna
+337;Brzeziny;2;3;Polna
+338;Wrocław;1;3;Kwiatowa
+339;Wrocław;17;1;Ogrodowa
+340;Toruń;9;9;Polna
+341;Jastrzębie-Zdrój;8;3;Ogrodowa
+342;Rzeszów;17;6;Polna
+343;Mińsk Mazowiecki;1;7;Szkolna
+344;Hajnówka;5;2;Kosciuszki
+345;Kamienna Góra;8;3;Szkolna
+346;Gdynia;10;4;Kosciuszki
+347;Złotoryja;1;9;Słoneczna
+348;Krosno;7;6;Krótka
+349;Nowy Sącz;17;4;Polna
+350;Aleksandrów Kujawski;2;7;Brzozowa
+351;Ciechanów;13;9;Słoneczna
+352;Bełchatów;3;8;Ogrodowa
+353;Rzeszów;7;1;Brzozowa
+354;Białystok;3;6;Leśna
+355;Katowice;4;2;Szkolna
+356;Żary;13;1;Lipowa
+357;Opole;13;1;Kwiatowa
+358;Białystok;2;7;Słoneczna
+359;Białystok;5;8;Leśna
+360;Gliwice;5;8;Szkolna
+361;Jaworzno;4;6;Słoneczna
+362;Głogów;17;9;Łąkowa
+363;Bytom;15;9;Lipowa
+364;Działdowo;18;9;Krótka
+365;Cieszyn;1;2;Jana Pawła II
+366;Wrocław;4;4;Leśna
+367;Wrocław;1;4;Polna
+368;Leszno;19;3;Szkolna
+369;Radom;3;1;Leśna
+370;Łódź;19;6;Szkolna
+371;Jelcz-Laskowice;12;7;Lipowa
+372;Chorzów;17;7;Leśna
+373;Zielona Góra;12;9;Sienkiewicza
+374;Legnica;16;8;Ogrodowa
+375;Sandomierz;19;3;Słoneczna
+376;Busko-Zdrój;9;9;Polna
+377;Radlin;1;3;Szkolna
+378;Nowy Dwór Mazowiecki;16;8;Słoneczna
+379;Kobyłka;18;6;Ogrodowa
+380;Warszawa;6;2;Słoneczna
+381;Warszawa;15;8;Ogrodowa
+382;Kraków;4;5;Ogrodowa
+383;Kraków;13;1;Słoneczna
+384;Gniezno;8;2;Ogrodowa
+385;Gniezno;15;7;Krótka
+386;Grójec;17;4;Jana Pawła II
+387;Tuchola;6;4;Słoneczna
+388;Mława;12;4;Kwiatowa
+389;Bolesławiec;7;7;Krótka
+390;Szczecin;19;6;Szkolna
+391;Zabrze;12;9;Lipowa
+392;Gołdap;14;6;Krótka
+393;Łask;19;9;Polna
+394;Poznań;7;5;Ogrodowa
+395;Kraków;13;4;Ogrodowa
+396;Kraków;13;1;Mickiewicza
+397;Kraków;4;5;Krótka
+398;Bytom;8;6;Polna
+399;Rzeszów;1;8;Kosciuszki
+400;Zielona Góra;6;7;Łąkowa
+401;Pionki;18;1;Krótka
+402;Iława;13;8;Polna
+403;Koszalin;12;3;Kwiatowa
+404;Zielona Góra;12;5;Lipowa
+405;Tczew;19;7;Łąkowa
+406;Gliwice;16;4;Krótka
+407;Gliwice;4;7;Polna
+408;Gdańsk;6;7;Łąkowa
+409;Szczecin;2;3;Ogrodowa
+410;Bełchatów;15;3;Polna
+411;Bełchatów;5;6;Słoneczna
+412;Zamość;8;2;Polna
+413;Białystok;6;3;Kosciuszki
+414;Pleszew;8;2;Sienkiewicza
+415;Pleszew;12;5;Lipowa
+416;Chełmża;7;7;Jana Pawła II
+417;Międzyrzec Podlaski;8;7;Polna
+418;Kłodzko;4;8;Polna
+419;Kłodzko;3;6;Polna
+420;Warszawa;2;2;Krótka
+421;Nowy Dwór Mazowiecki;2;5;Polna
+422;Warszawa;19;2;Kosciuszki
+423;Warszawa;10;5;Leśna
+424;Cieszyn;18;7;Szkolna
+425;Cieszyn;4;3;Kosciuszki
+426;Sulechów;1;8;Brzozowa
+427;Błonie;8;5;Leśna
+428;Piotrków Trybunalski;12;4;Szkolna
+429;Piotrków Trybunalski;10;9;Jana Pawła II
+430;Bytów;10;8;Kwiatowa
+431;Wrocław;18;4;Polna
+432;Bielawa;9;8;Jana Pawła II
+433;Bielawa;19;6;Polna
+434;Lublin;10;1;Mickiewicza
+435;Toruń;4;6;Kwiatowa
+436;Jelenia Góra;4;3;Kosciuszki
+437;Jelenia Góra;15;3;Polna
+438;Przasnysz;14;6;Łąkowa
+439;Katowice;19;6;Krótka
+440;Ruda Śląska;16;6;Łąkowa
+441;Włodawa;2;2;Leśna
+442;Tarnów;14;5;Krótka
+443;Tarnów;18;5;Słoneczna
+444;Radomsko;1;2;Polna
+445;Radomsko;11;4;Mickiewicza
+446;Poznań;10;9;Polna
+447;Marki;10;5;Polna
+448;Łomża;9;9;Mickiewicza
+449;Warszawa;6;1;Polna
+450;Bełchatów;7;3;Kosciuszki
+451;Bełchatów;13;9;Ogrodowa
+452;Poznań;4;4;Słoneczna
+453;Poznań;10;8;Szkolna
+454;Piotrków Trybunalski;12;3;Polna
+455;Ruda Śląska;17;5;Łąkowa
+456;Bielsko-Biała;2;2;Ogrodowa
+457;Bielsko-Biała;19;5;Kosciuszki
+458;Szczecin;11;9;Słoneczna
+459;Szczecin;15;7;Kwiatowa
+460;Gdynia;7;2;Leśna
+461;Gdynia;5;6;Brzozowa
+462;Słupsk;16;5;Słoneczna
+463;Ostrołęka;19;6;Lipowa
+464;Warszawa;13;8;Słoneczna
+465;Rybnik;14;3;Słoneczna
+466;Wrocław;15;5;Polna
+467;Sosnowiec;8;3;Mickiewicza
+468;Wrocław;8;1;Leśna
+469;Bielsk Podlaski;1;4;Polna
+470;Wrocław;12;7;Łąkowa
+471;Mława;18;4;Sienkiewicza
+472;Głogów;15;8;Sienkiewicza
+473;Świebodzice;19;1;Leśna
+474;Lublin;10;2;Kosciuszki
+475;Elbląg;12;6;Krótka
+476;Warszawa;12;7;Jana Pawła II
+477;Warszawa;7;9;Leśna
+478;Zabrze;12;2;Kwiatowa
+479;Zabrze;8;8;Krótka
+480;Warszawa;11;6;Sienkiewicza
+481;Warszawa;4;9;Krótka
+482;Kraków;18;6;Kwiatowa
+483;Kraków;3;8;Leśna
+484;Bielsk Podlaski;19;2;Ogrodowa
+485;Bielsk Podlaski;12;1;Polna
+486;Kraków;15;1;Leśna
+487;Grudziądz;19;9;Krótka
+488;Bytom;14;1;Leśna
+489;Bytom;8;6;Szkolna
+490;Oborniki;12;5;Leśna
+491;Wrocław;14;6;Brzozowa
+492;Bielsko-Biała;2;1;Ogrodowa
+493;Bielsko-Biała;7;5;Krótka
+494;Warszawa;4;5;Łąkowa
+495;Warszawa;15;4;Kwiatowa
+496;Warszawa;19;5;Lipowa
+497;Elbląg;1;4;Polna
+498;Kraków;14;6;Szkolna
+499;Kraków;6;8;Ogrodowa
+500;Poznań;17;3;Jana Pawła II
+501;Poznań;5;8;Słoneczna
+502;Białystok;16;5;Krótka
+503;Białystok;9;4;Ogrodowa
+504;Głogów;19;3;Polna
+505;Sieradz;17;1;Leśna
+506;Tczew;19;2;Mickiewicza
+507;Kutno;1;1;Łąkowa
+508;Warszawa;7;8;Leśna
+509;Poznań;12;2;Lipowa
+510;Kamienna Góra;17;5;Szkolna
+511;Kamienna Góra;11;5;Ogrodowa
+512;Zabrze;19;1;Szkolna
+513;Zabrze;16;5;Leśna
+514;Poznań;14;8;Lipowa
+515;Łódź;2;3;Szkolna
+516;Łódź;7;9;Leśna
+517;Łódź;12;9;Polna
+518;Koszalin;19;6;Polna
+519;Koszalin;13;4;Ogrodowa
+520;Kraków;10;1;Mickiewicza
+521;Kraków;6;9;Szkolna
+522;Starogard Gdański;14;4;Szkolna
+523;Zielona Góra;12;6;Słoneczna
+524;Warszawa;8;5;Łąkowa
+525;Warszawa;8;3;Lipowa
+526;Szczecin;12;7;Szkolna
+527;Szczecin;4;1;Leśna
+528;Bielsko-Biała;1;1;Krótka
+529;Bielsko-Biała;5;8;Szkolna
+530;Gliwice;14;9;Ogrodowa
+531;Gliwice;13;7;Ogrodowa
+532;Giżycko;7;3;Polna
+533;Giżycko;14;5;Polna
+534;Warszawa;18;6;Polna
+535;Warszawa;14;7;Leśna
+536;Wrocław;9;1;Łąkowa
+537;Szczecin;12;9;Lipowa
+538;Tczew;13;3;Słoneczna
+539;Gdańsk;10;9;Ogrodowa
+540;Zabrze;5;3;Sienkiewicza
+541;Zabrze;7;6;Łąkowa
+542;Sosnowiec;5;9;Łąkowa
+543;Sosnowiec;1;7;Kwiatowa
+544;Kraków;13;1;Słoneczna
+545;Augustów;6;2;Mickiewicza
+546;Augustów;15;6;Leśna
+547;Elbląg;5;1;Krótka
+548;Słupsk;6;6;Polna
+549;Kraków;2;4;Krótka
+550;Warszawa;5;4;Kosciuszki
+551;Pruszków;6;8;Szkolna
+552;Namysłów;10;4;Kwiatowa
+553;Inowrocław;9;2;Polna
+554;Lubań;8;4;Leśna
+555;Rumia;14;4;Kwiatowa
+556;Mysłowice;12;3;Lipowa
+557;Mysłowice;10;1;Słoneczna
+558;Dęblin;1;6;Leśna
+559;Sosnowiec;19;2;Polna
+560;Opole;15;2;Lipowa
+561;Poznań;15;3;Leśna
+562;Poznań;8;6;Słoneczna
+563;Ruda Śląska;3;1;Łąkowa
+564;Warszawa;19;7;Lipowa
+565;Warszawa;5;9;Kosciuszki
+566;Warszawa;17;9;Polna
+567;Lędziny;1;3;Kosciuszki
+568;Kozienice;10;3;Polna
+569;Szydłowiec;19;4;Leśna
+570;Szydłowiec;2;9;Leśna
+571;Szydłowiec;6;4;Polna
+572;Lublin;6;5;Polna
+573;Stalowa Wola;5;2;Lipowa
+574;Łódź;10;1;Leśna
+575;Łódź;14;3;Sienkiewicza
+576;Białystok;14;1;Słoneczna
+577;Głogów;13;6;Kosciuszki
+578;Kozienice;17;3;Ogrodowa
+579;Głogów;15;2;Brzozowa
+580;Sulechów;16;1;Brzozowa
+581;Sulechów;4;1;Ogrodowa
+582;Sulechów;18;3;Łąkowa
+583;Sulechów;12;8;Ogrodowa
+584;Krotoszyn;6;6;Szkolna
+585;Sulejówek;18;8;Szkolna
+586;Kielce;18;2;Polna
+587;Sulejówek;15;6;Polna
+588;Szczytno;2;4;Brzozowa
+589;Gdynia;7;1;Szkolna
+590;Przemyśl;1;6;Leśna
+591;Przemyśl;6;6;Leśna
+592;Ruda Śląska;6;3;Polna
+593;Ruda Śląska;14;6;Leśna
+594;Kraków;3;3;Łąkowa
+595;Kraków;18;2;Brzozowa
+596;Wrocław;8;9;Słoneczna
+597;Wrocław;18;6;Polna
+598;Trzcianka;14;8;Krótka
+599;Trzcianka;13;2;Leśna
+600;Poznań;4;2;Szkolna
+601;Lublin;17;5;Kwiatowa
+602;Lublin;2;1;Leśna
+603;Lublin;6;2;Szkolna
+604;Chorzów;13;9;Sienkiewicza
+605;Chorzów;17;3;Ogrodowa
+606;Kraków;5;9;Ogrodowa
+607;Chorzów;12;8;Brzozowa
+608;Mysłowice;10;3;Lipowa
+609;Słupsk;16;5;Polna
+610;Słupsk;9;7;Jana Pawła II
+611;Słupsk;10;5;Brzozowa
+612;Łódź;15;6;Szkolna
+613;Elbląg;8;2;Ogrodowa
+614;Elbląg;18;2;Brzozowa
+615;Elbląg;1;2;Leśna
+616;Dąbrowa Górnicza;5;7;Łąkowa
+617;Drawsko Pomorskie;10;9;Szkolna
+618;Drawsko Pomorskie;14;2;Leśna
+619;Szczecin;18;7;Polna
+620;Łódź;3;2;Ogrodowa
+621;Lubin;1;5;Leśna
+622;Suwałki;3;9;Lipowa
+623;Poznań;8;5;Ogrodowa
+624;Augustów;12;4;Słoneczna
+625;Augustów;8;2;Łąkowa
+626;Augustów;5;8;Sienkiewicza
+627;Augustów;14;4;Leśna
+628;Pińczów;12;8;Szkolna
+629;Zgorzelec;18;5;Leśna
+630;Lubań;17;2;Łąkowa
+631;Tychy;1;4;Polna
+632;Bytom;4;7;Leśna
+633;Ostrowiec Świętokrzyski;3;6;Polna
+634;Ostrowiec Świętokrzyski;19;4;Polna
+635;Ostrowiec Świętokrzyski;14;2;Sienkiewicza
+636;Warszawa;4;5;Sienkiewicza
+637;Ostrów Wielkopolski;1;5;Ogrodowa
+638;Ostrów Wielkopolski;4;7;Łąkowa
+639;Ostrów Wielkopolski;4;2;Krótka
+640;Łódź;8;9;Słoneczna
+641;Łódź;11;4;Szkolna
+642;Grodzisk Mazowiecki;8;4;Krótka
+643;Łódź;4;6;Słoneczna
+644;Skarżysko-Kamienna;19;4;Leśna
+645;Skarżysko-Kamienna;19;5;Mickiewicza
+646;Skarżysko-Kamienna;13;1;Kosciuszki
+647;Skarżysko-Kamienna;4;1;Kosciuszki
+648;Kłobuck;3;8;Kwiatowa
+649;Kłobuck;3;6;Łąkowa
+650;Kłobuck;16;5;Leśna
+651;Katowice;2;3;Jana Pawła II
+652;Łomża;16;2;Kosciuszki
+653;Łomża;3;6;Szkolna
+654;Chrzanów;15;3;Leśna
+655;Łomża;7;8;Polna
+656;Pruszcz Gdański;15;2;Ogrodowa
+657;Pruszcz Gdański;7;9;Lipowa
+658;Pruszcz Gdański;10;1;Krótka
+659;Pruszcz Gdański;13;3;Ogrodowa
+660;Gorzów Wielkopolski;12;6;Ogrodowa
+661;Gorzów Wielkopolski;11;9;Sienkiewicza
+662;Jastrzębie-Zdrój;10;5;Leśna
+663;Jastrzębie-Zdrój;19;5;Brzozowa
+664;Piła;4;1;Krótka
+665;Piła;15;8;Krótka
+666;Piła;9;7;Słoneczna
+667;Piła;11;5;Szkolna
+668;Gdańsk;8;5;Ogrodowa
+669;Toruń;2;3;Brzozowa
+670;Bielsko-Biała;19;8;Brzozowa
+671;Gdańsk;4;1;Słoneczna
+672;Zamość;4;5;Ogrodowa
+673;Legnica;9;4;Leśna
+674;Warszawa;9;4;Ogrodowa
+675;Zamość;4;6;Kosciuszki
+676;Przasnysz;15;8;Krótka
+677;Białystok;5;5;Kosciuszki
+678;Łódź;15;1;Polna
+679;Białystok;4;6;Kwiatowa
+680;Police;2;9;Krótka
+681;Swarzędz;8;5;Kwiatowa
+682;Skawina;17;2;Kosciuszki
+683;Sieradz;3;9;Kwiatowa
+684;Czerwionka-Leszczyny;17;2;Brzozowa
+685;Płock;3;3;Słoneczna
+686;Płock;10;3;Leśna
+687;Płock;13;3;Leśna
+688;Mysłowice;17;1;Szkolna
+689;Mysłowice;15;6;Słoneczna
+690;Mysłowice;14;6;Kosciuszki
+691;Mysłowice;3;9;Leśna
+692;Tarnowskie Góry;18;9;Polna
+693;Tarnowskie Góry;6;9;Słoneczna
+694;Tarnowskie Góry;3;8;Leśna
+695;Tarnowskie Góry;13;7;Leśna
+696;Dąbrowa Górnicza;15;2;Szkolna
+697;Dąbrowa Górnicza;15;3;Ogrodowa
+698;Myszków;19;2;Krótka
+699;Sosnowiec;14;4;Jana Pawła II
+700;Biskupiec;3;1;Szkolna
+701;Biskupiec;9;7;Mickiewicza
+702;Biskupiec;1;7;Leśna
+703;Opoczno;19;6;Polna
+704;Białystok;14;1;Polna
+705;Września;17;6;Łąkowa
+706;Białystok;16;2;Polna
+707;Białystok;17;5;Sienkiewicza
+708;Olsztyn;7;4;Krótka
+709;Olsztyn;14;7;Słoneczna
+710;Wrocław;14;2;Leśna
+711;Olsztyn;14;6;Leśna
+712;Kraków;4;6;Łąkowa
+713;Tarnów;16;9;Krótka
+714;Kraków;11;9;Leśna
+715;Kraków;14;1;Łąkowa
+716;Dąbrowa Górnicza;6;6;Szkolna
+717;Dąbrowa Górnicza;13;3;Kosciuszki
+718;Dąbrowa Górnicza;8;8;Leśna
+719;Dąbrowa Górnicza;17;1;Słoneczna
+720;Wołomin;4;1;Leśna
+721;Będzin;15;8;Lipowa
+722;Wołomin;15;7;Kosciuszki
+723;Przemyśl;14;2;Łąkowa
+724;Brzeziny;10;5;Brzozowa
+725;Warszawa;2;9;Brzozowa
+726;Brzeziny;19;1;Ogrodowa
+727;Brzeziny;15;1;Krótka
+728;Wrocław;15;4;Brzozowa
+729;Sopot;6;9;Kwiatowa
+730;Wrocław;11;4;Leśna
+731;Wrocław;6;7;Szkolna
+732;Toruń;13;6;Krótka
+733;Toruń;2;3;Kwiatowa
+734;Gdańsk;1;5;Leśna
+735;Toruń;2;7;Łąkowa
+736;Rzeszów;11;6;Krótka
+737;Rzeszów;11;6;Krótka
+738;Nysa;6;7;Szkolna
+739;Mińsk Mazowiecki;17;7;Polna
+740;Iława;14;3;Leśna
+741;Kamienna Góra;14;4;Szkolna
+742;Kamienna Góra;1;4;Kosciuszki
+743;Kamienna Góra;15;1;Krótka
+744;Gdynia;19;5;Słoneczna
+745;Gdynia;1;2;Kosciuszki
+746;Złotoryja;18;3;Kwiatowa
+747;Złotoryja;6;7;Szkolna
+748;Krosno;13;3;Polna
+749;Krosno;5;4;Leśna
+750;Katowice;6;2;Polna
+751;Krosno;2;2;Leśna
+752;Aleksandrów Kujawski;16;3;Słoneczna
+753;Aleksandrów Kujawski;17;1;Słoneczna
+754;Ciechanów;13;2;Leśna
+755;Ciechanów;9;1;Krótka
+756;Bełchatów;13;2;Brzozowa
+757;Legnica;17;9;Polna
+758;Rzeszów;11;1;Krótka
+759;Rzeszów;3;4;Jana Pawła II
+760;Białystok;18;1;Szkolna
+761;Białystok;7;9;Krótka
+762;Białystok;3;2;Szkolna
+763;Białystok;17;4;Kosciuszki
+764;Słupsk;1;8;Kwiatowa
+765;Opole;10;2;Krótka
+766;Poznań;18;4;Kwiatowa
+767;Opole;17;9;Leśna
+768;Białystok;2;3;Ogrodowa
+769;Białystok;19;1;Słoneczna
+770;Kraków;10;3;Ogrodowa
+771;Białystok;2;9;Ogrodowa
+772;Gliwice;18;4;Słoneczna
+773;Gliwice;8;1;Sienkiewicza
+774;Gliwice;18;8;Polna
+775;Gliwice;11;8;Leśna
+776;Szczecin;19;2;Słoneczna
+777;Szczecin;13;7;Ogrodowa
+778;Szczecin;16;7;Szkolna
+779;Szczecin;10;3;Leśna
+780;Działdowo;8;3;Krótka
+781;Działdowo;16;5;Krótka
+782;Cieszyn;13;3;Ogrodowa
+783;Bielsko-Biała;8;3;Leśna
+784;Wodzisław Śląski;4;5;Krótka
+785;Wrocław;9;5;Jana Pawła II
+786;Rawa Mazowiecka;12;3;Ogrodowa
+787;Ząbkowice Śląskie;7;6;Leśna
+788;Leszno;10;4;Ogrodowa
+789;Leszno;8;1;Łąkowa
+790;Radom;6;1;Słoneczna
+791;Radom;2;1;Sienkiewicza
+792;Kraków;1;8;Łąkowa
+793;Zamość;6;8;Krótka
+794;Brzeg Dolny;16;9;Jana Pawła II
+795;Zamość;5;7;Szkolna
+796;Chorzów;8;3;Ogrodowa
+797;Chorzów;1;6;Łąkowa
+798;Zielona Góra;8;6;Słoneczna
+799;Dąbrowa Górnicza;4;2;Polna
+800;Wałbrzych;19;1;Ogrodowa
+801;Kołobrzeg;15;7;Krótka
+802;Warszawa;1;2;Leśna
+803;Człuchów;3;1;Szkolna
+804;Warszawa;11;1;Kwiatowa
+805;Busko-Zdrój;13;3;Polna
+806;Busko-Zdrój;12;8;Kwiatowa
+807;Busko-Zdrój;16;4;Polna
+808;Nowy Dwór Mazowiecki;13;6;Łąkowa
+809;Nowy Dwór Mazowiecki;9;4;Leśna
+810;Kobyłka;6;3;Kosciuszki
+811;Nowy Dwór Mazowiecki;10;9;Słoneczna
+812;Wrocław;10;2;Lipowa
+813;Warszawa;13;1;Łąkowa
+814;Warszawa;19;8;Ogrodowa
+815;Warszawa;8;7;Lipowa
+816;Kraków;7;5;Ogrodowa
+817;Kraków;8;9;Szkolna
+818;Kraków;8;5;Lipowa
+819;Kraków;13;1;Ogrodowa
+820;Gniezno;9;3;Leśna
+821;Gniezno;17;2;Szkolna
+822;Gniezno;9;6;Brzozowa
+823;Gniezno;2;2;Łąkowa
+824;Kraków;15;5;Polna
+825;Tuchola;4;5;Leśna
+826;Tuchola;16;6;Jana Pawła II
+827;Tuchola;6;8;Kwiatowa
+828;Mława;7;5;Kwiatowa
+829;Mława;10;7;Leśna
+830;Bolesławiec;10;7;Ogrodowa
+831;Bolesławiec;6;1;Sienkiewicza
+832;Szczecin;17;5;Leśna
+833;Poznań;8;2;Łąkowa
+834;Wrocław;12;6;Lipowa
+835;Przemyśl;7;1;Kwiatowa
+836;Wadowice;4;4;Brzozowa
+837;Łask;19;9;Łąkowa
+838;Łask;19;9;Mickiewicza
+839;Łask;7;7;Lipowa
+840;Mysłowice;15;5;Polna
+841;Poznań;19;9;Polna
+842;Poznań;6;6;Brzozowa
+843;Poznań;2;6;Ogrodowa
+844;Kraków;2;4;Brzozowa
+845;Kraków;1;2;Kosciuszki
+846;Kraków;16;6;Łąkowa
+847;Kraków;2;8;Leśna
+848;Bielsko-Biała;7;3;Polna
+849;Rzeszów;3;8;Leśna
+850;Rzeszów;18;8;Krótka
+851;Warszawa;18;5;Mickiewicza
+852;Świecie;17;1;Jana Pawła II
+853;Żary;18;4;Lipowa
+854;Pionki;15;1;Polna
+855;Pionki;11;1;Sienkiewicza
+856;Wrocław;19;2;Mickiewicza
+857;Iława;4;5;Leśna
+858;Poznań;18;6;Polna
+859;Tomaszów Mazowiecki;9;2;Słoneczna
+860;Kraków;7;7;Szkolna
+861;Kraków;5;5;Kosciuszki
+862;Tczew;1;2;Łąkowa
+863;Koło;7;7;Łąkowa
+864;Gliwice;2;6;Polna
+865;Gliwice;1;3;Leśna
+866;Gliwice;7;1;Brzozowa
+867;Warszawa;5;6;Polna
+868;Szczecin;11;1;Słoneczna
+869;Wschowa;10;2;Brzozowa
+870;Szczecin;5;2;Leśna
+871;Szczecin;6;8;Szkolna
+872;Warszawa;14;1;Brzozowa
+873;Bełchatów;19;4;Krótka
+874;Elbląg;2;9;Szkolna
+875;Bełchatów;4;4;Ogrodowa
+876;Sosnowiec;11;5;Łąkowa
+877;Sosnowiec;17;2;Lipowa
+878;Białystok;16;8;Ogrodowa
+879;Białystok;1;8;Ogrodowa
+880;Bytom;2;1;Łąkowa
+881;Pleszew;7;8;Polna
+882;Pleszew;5;1;Szkolna
+883;Pleszew;4;3;Lipowa
+884;Wrocław;11;3;Leśna
+885;Działdowo;5;2;Jana Pawła II
+886;Chełmża;5;4;Kwiatowa
+887;Chełmża;4;8;Krótka
+888;Kłodzko;8;3;Krótka
+889;Kłodzko;16;9;Leśna
+890;Ełk;19;7;Słoneczna
+891;Kłodzko;13;9;Leśna
+892;Kalisz;3;3;Słoneczna
+893;Warszawa;7;4;Słoneczna
+894;Nowy Dwór Mazowiecki;4;6;Słoneczna
+895;Nowy Dwór Mazowiecki;14;1;Szkolna
+896;Warszawa;11;4;Łąkowa
+897;Jastrzębie-Zdrój;1;6;Brzozowa
+898;Chełm;18;7;Słoneczna
+899;Warszawa;18;7;Kosciuszki
+900;Cieszyn;9;7;Leśna
+901;Cieszyn;3;5;Szkolna
+902;Cieszyn;14;1;Krótka
+903;Legnica;2;1;Słoneczna
+904;Sulechów;13;9;Ogrodowa
+905;Sulechów;11;7;Łąkowa
+906;Błonie;5;3;Leśna
+907;Błonie;19;4;Lipowa
+908;Lublin;4;8;Ogrodowa
+909;Piotrków Trybunalski;16;5;Słoneczna
+910;Wałbrzych;4;2;Szkolna
+911;Piła;1;8;Brzozowa
+912;Białystok;10;7;Mickiewicza
+913;Bartoszyce;2;8;Szkolna
+914;Warszawa;3;9;Kwiatowa
+915;Wrocław;16;5;Lipowa
+916;Bielawa;6;1;Słoneczna
+917;Bielawa;13;1;Jana Pawła II
+918;Bielawa;15;1;Słoneczna
+919;Bielawa;1;5;Szkolna
+920;Lublin;12;6;Szkolna
+921;Żagań;9;4;Leśna
+922;Toruń;6;8;Słoneczna
+923;Krosno;10;1;Jana Pawła II
+924;Jelenia Góra;11;3;Słoneczna
+925;Jelenia Góra;19;8;Leśna
+926;Jelenia Góra;12;1;Słoneczna
+927;Jelenia Góra;3;7;Krótka
+928;Przasnysz;13;4;Krótka
+929;Piotrków Trybunalski;7;1;Leśna
+930;Katowice;15;7;Słoneczna
+931;Kostrzyn nad Odrą;6;1;Leśna
+932;Bydgoszcz;7;3;Szkolna
+933;Ruda Śląska;19;5;Lipowa
+934;Włodawa;5;4;Szkolna
+935;Ruda Śląska;17;7;Słoneczna
+936;Tarnów;6;4;Mickiewicza
+937;Tarnów;14;5;Łąkowa
+938;Tarnów;18;1;Lipowa
+939;Tarnów;8;1;Słoneczna
+940;Kętrzyn;6;4;Leśna
+941;Radomsko;18;2;Słoneczna
+942;Radomsko;12;9;Słoneczna
+943;Radomsko;1;5;Leśna
