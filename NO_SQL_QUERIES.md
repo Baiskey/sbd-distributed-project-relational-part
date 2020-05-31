@@ -2,7 +2,8 @@ business queries
 
 1. Return list of people with information how much children they have
 
-`db.person.aggregate([
+`
+([
    {
       $project: {
           name:1,
@@ -13,13 +14,14 @@ business queries
           children: {$cond: {if: {$isArray: "$children"}, then: {$size: "$children"}, else: "NA"}}
       }
    }
-] )`
+] )
+`
 
 
 
 2. Return list of people with their homes and calculate how much days has passed since their moved
 
-`db.person.aggregate(
+`
 [{
     $lookup: {
       from: 'address',
